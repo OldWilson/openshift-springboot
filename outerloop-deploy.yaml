@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-java-springboot
-          image: java-springboot-image:latest
+          image: quay.io/eclipse/che-java11-maven:next
           ports:
             - name: http
               containerPort: 8081
